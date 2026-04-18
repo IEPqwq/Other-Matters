@@ -1,0 +1,14 @@
+# --- Python 忽略项 ---
+.venv/
+.venv.nosync/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Typst 忽略项 ---
+# 如果你不希望同步本地编译出的 PDF，可以取消下面这行的注释
+*.pdf
+
+# --- 系统与编辑器 ---
+.DS_Store
+.vscode/
